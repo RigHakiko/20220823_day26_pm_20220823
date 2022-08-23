@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--常用标签和属性
+mapper标签: 所有代码必须声明有mapper标签内
+    namespace属性:
+-->
+<mapper>
+    <
+</mapper>
