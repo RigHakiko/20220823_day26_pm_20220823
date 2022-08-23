@@ -10,4 +10,10 @@ mapper标签: 所有代码必须声明有mapper标签内
     <insert id="addBook">
         insert into book values (default, #{name}, #{author}, #{price});
     </insert>
+    <update id="updateBook">
+        update book set book_name = #{name}, book_author = #{author}, book_price = #{price} where book_id = #{id};
+    </update>
+    <delete id="deleteBook">
+        delete from book where book_id = #{value};
+    </delete>
 </mapper>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d8ea3-3a05-4a03-b04e-066858c45d17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" afterDir="false" />
@@ -23,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,15 +33,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/g14user01/OneDrive/20220630_20210315/20220810_step1_projects/20220822_day26/day26_pm_20220823/src",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/g14user01/OneDrive/20220630_20210315/20220810_step1_projects/20220822_day26/day26_pm_20220823/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\g14user01\OneDrive\20220630_20210315\20220810_step1_projects\20220822_day26\day26_pm_20220823\src" />
@@ -75,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661220151052</updated>
-      <workItem from="1661220152758" duration="3264000" />
+      <workItem from="1661220152758" duration="3706000" />
+      <workItem from="1661225625462" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="复制来了day26am的东西">
       <created>1661224024188</created>
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661224243988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="弄好了insert/add这一个方法, 把try catch改成了throw">
+      <created>1661225310413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661225310413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="复制来了day26am的东西" />
     <MESSAGE value="注释掉了注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="注释掉了注解" />
+    <MESSAGE value="弄好了insert/add这一个方法, 把try catch改成了throw" />
+    <option name="LAST_COMMIT_MESSAGE" value="弄好了insert/add这一个方法, 把try catch改成了throw" />
   </component>
 </project>

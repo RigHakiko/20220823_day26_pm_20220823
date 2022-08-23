@@ -13,7 +13,7 @@ import java.util.List;
 
 public class Test {
     // 测试的代码过于复杂(少学了spring)
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         //加载配置文件
         String resource = "sqlMapConfig.xml";
         int result;
@@ -26,6 +26,8 @@ public class Test {
         sqlSession = sqlSessionFactory.openSession();
 
         BookMapper bookMapper = sqlSession.getMapper(BookMapper.class);
+
+        //测add
         Book book = new Book();
         book.setName("斗破苍穹");
         book.setAuthor("天蚕土豆");
@@ -33,6 +35,22 @@ public class Test {
         result = bookMapper.addBook(book);
         sqlSession.commit();
         System.out.println(result);
+
+        //测update
+        Book book2 = new Book();
+        book2.setId(25);
+        book2.setName("25newName");
+        book2.setAuthor("25newAuthor");
+        book2.setPrice(25.0);
+        result = bookMapper.updateBook(book2);
+        sqlSession.commit();
+        System.out.println(result);
+
+        //测删除
+        Integer idToDelete = 28;
+        result = bookMapper.deleteBook(idToDelete);
+        System.out.println(result);
+
 
 //        Book book1 = bookMapper.selectById(19);
 //        System.out.println(book1);

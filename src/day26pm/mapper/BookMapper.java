@@ -22,7 +22,7 @@ public interface BookMapper {
 //            "book_author = #{author}, " +
 //            "book_price = #{price} " +
 //            "where book_id = #{id}")
-    int update(Book book);
+    int updateBook(Book book);
 
     //删除
 //    @Delete("delete from book where book_id = #{value}") //{}内可以写任何东西, 建议工作中统一使用value
