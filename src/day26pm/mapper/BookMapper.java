@@ -53,5 +53,14 @@ public interface BookMapper {
 //    List<Book> selectByPrice(Double minPrice, Double maxPrice);
 
     //查询所有编号
+    List<Integer> selectBookId();
+
+    //后凡哥加的
+    //查询所有书名
+    List<String> selectBookName();
+
+    //后凡哥加的
+    //查询最高价格
+    Double selectMaxPrice();
 
 }

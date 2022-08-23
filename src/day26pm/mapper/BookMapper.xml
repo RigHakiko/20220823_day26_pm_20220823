@@ -6,6 +6,8 @@
 mapper标签: 所有代码必须声明有mapper标签内
     namespace属性:
 -->
-<mapper>
-    <
+<mapper namespace="day26pm.mapper.BookMapper">
+    <insert id="addBook">
+        insert into book values (default, #{name}, #{author}, #{price});
+    </insert>
 </mapper>

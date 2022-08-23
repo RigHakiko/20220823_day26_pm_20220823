@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d8ea3-3a05-4a03-b04e-066858c45d17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day26_pm_20220823.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cglib-2.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.17.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mybatis-3.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.0.6-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26pm/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26pm/view/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26pm/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/view/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +35,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/g14user01/OneDrive/20220630_20210315/20220810_step1_projects/20220822_day26/day26_pm_20220823",
+    "last_opened_file_path": "C:/Users/g14user01/OneDrive/20220630_20210315/20220810_step1_projects/20220822_day26/day26_pm_20220823/src",
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\g14user01\OneDrive\20220630_20210315\20220810_step1_projects\20220822_day26\day26_pm_20220823\src" />
       <recent name="C:\Users\g14user01\OneDrive\20220630_20210315\20220810_step1_projects\20220822_day26\day26_pm_20220823" />
       <recent name="C:\Users\g14user01\OneDrive\20220630_20210315\20220810_step1_projects\20220822_day26\day26_pm_20220823\src\day26pm" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day26pm.view.Test" />
+      <module name="day26_pm_20220823" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day26pm.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,11 +75,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661220151052</updated>
-      <workItem from="1661220152758" duration="2126000" />
+      <workItem from="1661220152758" duration="3264000" />
     </task>
+    <task id="LOCAL-00001" summary="复制来了day26am的东西">
+      <created>1661224024188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661224024188</updated>
+    </task>
+    <task id="LOCAL-00002" summary="注释掉了注解">
+      <created>1661224243988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661224243988</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="复制来了day26am的东西" />
+    <MESSAGE value="注释掉了注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释掉了注解" />
   </component>
 </project>
