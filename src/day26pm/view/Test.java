@@ -83,11 +83,16 @@ public class Test {
 
         //查询所有编号 成功
         List<Integer> ids08 = bookMapper.selectBookId();
-        for (Integer id08 :
-                ids08) {
-            System.out.println(id08);
-        }
+//        for (Integer id08 :
+//                ids08) {
+//            System.out.println(id08);
+//        }
+        //直接输出list更方便
+        System.out.println(ids08);
 
+        //查询所有的书名 成功
+        List<String> booknames09 = bookMapper.selectBookName();
+        System.out.println(booknames09);
 
 //        Book book1 = bookMapper.selectById(19);
 //        System.out.println(book1);
