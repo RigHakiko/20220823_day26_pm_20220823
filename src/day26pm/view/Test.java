@@ -51,6 +51,13 @@ public class Test {
         result = bookMapper.deleteBook(idToDelete);
         System.out.println(result);
 
+        //全查询
+        List<Book> books = bookMapper.selectBook();
+        for (Book book1 :
+                books) {
+            System.out.println(book1);
+        }
+
 
 //        Book book1 = bookMapper.selectById(19);
 //        System.out.println(book1);

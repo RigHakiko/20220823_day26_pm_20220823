@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d8ea3-3a05-4a03-b04e-066858c45d17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/mapper/BookMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day26pm/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26pm/view/Test.java" afterDir="false" />
     </list>
@@ -78,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661220151052</updated>
       <workItem from="1661220152758" duration="3706000" />
-      <workItem from="1661225625462" duration="709000" />
+      <workItem from="1661225625462" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="复制来了day26am的东西">
       <created>1661224024188</created>
@@ -101,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661225310413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update与delete成功">
+      <created>1661226417476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661226417476</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +116,7 @@
     <MESSAGE value="复制来了day26am的东西" />
     <MESSAGE value="注释掉了注解" />
     <MESSAGE value="弄好了insert/add这一个方法, 把try catch改成了throw" />
-    <option name="LAST_COMMIT_MESSAGE" value="弄好了insert/add这一个方法, 把try catch改成了throw" />
+    <MESSAGE value="update与delete成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="update与delete成功" />
   </component>
 </project>
