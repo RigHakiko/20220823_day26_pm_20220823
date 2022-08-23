@@ -94,6 +94,10 @@ public class Test {
         List<String> booknames09 = bookMapper.selectBookName();
         System.out.println(booknames09);
 
+        //查询最高价格 成功
+        Double maxPrice10 = bookMapper.selectMaxPrice();
+        System.out.println(maxPrice10);
+
 //        Book book1 = bookMapper.selectById(19);
 //        System.out.println(book1);
 //

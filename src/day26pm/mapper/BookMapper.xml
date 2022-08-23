@@ -50,4 +50,8 @@ mapper标签: 所有代码必须声明有mapper标签内
     <select id="selectBookName" resultType="java.lang.String">
         select book_name from book;
     </select>
+
+    <select id="selectMaxPrice" resultType="java.lang.Double">
+        select max(book_price) from book;
+    </select>
 </mapper>
