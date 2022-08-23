@@ -38,4 +38,9 @@ mapper标签: 所有代码必须声明有mapper标签内
         from book
         where book_name like concat('%', #{value}, '%');
     </select>
+    <select id="selectByAuthor" resultType="day26pm.entity.Book">
+        select book_id as id, book_name as name, book_author as author, book_price as price
+        from book
+        where book_author = #{value};
+    </select>
 </mapper>

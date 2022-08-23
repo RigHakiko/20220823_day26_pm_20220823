@@ -72,11 +72,12 @@ public class Test {
 //            System.out.println(book6_02);
 //        }
 
-
-
-
-
-
+        String author07 = "吴承恩";
+        List<Book> books07 = bookMapper.selectByAuthor(author07);
+        for (Book book07 :
+                books07) {
+            System.out.println(book07);
+        }
 
 
 //        Book book1 = bookMapper.selectById(19);
