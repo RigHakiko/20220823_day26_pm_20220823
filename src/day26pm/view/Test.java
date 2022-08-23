@@ -27,36 +27,36 @@ public class Test {
 
         BookMapper bookMapper = sqlSession.getMapper(BookMapper.class);
 
-        //测add
-        Book book = new Book();
-        book.setName("斗破苍穹");
-        book.setAuthor("天蚕土豆");
-        book.setPrice(28.8);
-        result = bookMapper.addBook(book);
-        sqlSession.commit();
-        System.out.println(result);
-
-        //测update
-        Book book2 = new Book();
-        book2.setId(25);
-        book2.setName("25newName");
-        book2.setAuthor("25newAuthor");
-        book2.setPrice(25.0);
-        result = bookMapper.updateBook(book2);
-        sqlSession.commit();
-        System.out.println(result);
-
-        //测删除
-        Integer idToDelete = 28;
-        result = bookMapper.deleteBook(idToDelete);
-        System.out.println(result);
-
-        //全查询
-        List<Book> books = bookMapper.selectBook();
-        for (Book book1 :
-                books) {
-            System.out.println(book1);
-        }
+//        //测add 成功, 注释掉之
+//        Book book = new Book();
+//        book.setName("斗破苍穹");
+//        book.setAuthor("天蚕土豆");
+//        book.setPrice(28.8);
+//        result = bookMapper.addBook(book);
+//        sqlSession.commit();
+//        System.out.println(result);
+//
+//        //测update 成功, 注释掉之
+//        Book book2 = new Book();
+//        book2.setId(25);
+//        book2.setName("25newName");
+//        book2.setAuthor("25newAuthor");
+//        book2.setPrice(25.0);
+//        result = bookMapper.updateBook(book2);
+//        sqlSession.commit();
+//        System.out.println(result);
+//
+//        //测删除 成功, 注释掉之
+//        Integer idToDelete = 28;
+//        result = bookMapper.deleteBook(idToDelete);
+//        System.out.println(result);
+//
+//        //全查询 成功, 注释掉之
+//        List<Book> books = bookMapper.selectBook();
+//        for (Book book1 :
+//                books) {
+//            System.out.println(book1);
+//        }
 
 
 //        Book book1 = bookMapper.selectById(19);
