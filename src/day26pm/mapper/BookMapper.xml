@@ -43,4 +43,11 @@ mapper标签: 所有代码必须声明有mapper标签内
         from book
         where book_author = #{value};
     </select>
+    <select id="selectBookId" resultType="java.lang.Integer">
+        select book_id from book;
+    </select>
+
+    <select id="selectBookName" resultType="java.lang.String">
+        select book_name from book;
+    </select>
 </mapper>
