@@ -58,6 +58,19 @@ public class Test {
 //            System.out.println(book1);
 //        }
 
+        //根据id查询, 成功
+        Integer idToSelect = 9;
+        Book book5 = bookMapper.selectById(idToSelect);
+        System.out.println(book5);
+
+
+        //根据书名模糊查询 成功
+        String likeName = "梦";
+        List<Book> books6 = bookMapper.selectByName(likeName);
+        for (Book book6_02 :
+                books6) {
+            System.out.println(book6_02);
+        }
 
 //        Book book1 = bookMapper.selectById(19);
 //        System.out.println(book1);
